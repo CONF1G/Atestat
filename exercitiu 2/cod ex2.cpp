@@ -3,7 +3,6 @@
 using namespace std;
 
 fstream fin("numere.in"); 
-fstream fout("numere.out");
 
 int main()
 {
@@ -26,9 +25,9 @@ int main()
             maxi=a[i]; //inlocuim valoarea maxima
         }
     }
-    fout<<"Valoarea maxima:"<<maxi; //afisare valoare maxima
-    fout<<"\n";
-    fout<<"Valoarea imediat mai mica:"<<aux; //afisam valoare imediat mai mica
+    cout<<"Valoarea maxima:"<<maxi; //afisare valoare maxima
+    cout<<"\n";
+    cout<<"Valoarea imediat mai mica:"<<aux; //afisam valoare imediat mai mica
 
 
     return 0;
