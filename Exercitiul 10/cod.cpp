@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ffstream>
+#include <fstream>
 using namespace std;
 
 ifstream fin("numere.in");
