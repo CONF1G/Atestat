@@ -11,7 +11,6 @@ int main()
     fin>>n;
     for(i=1; i<=n; i++)
     {
-        c
     fin>>nr;
 
         a[nr]++;
