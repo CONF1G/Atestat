@@ -9,16 +9,16 @@ int main()
 {
     int n,a[101][101],sum=0,i,j;
 
-    cin>>n;
+    fin>>n;
 
     for(i=1; i<=n; i++)
         for(j=1; j<=n; j++)
-            cin>>a[i][j];
+            fin>>a[i][j];
 
 
     for(i=1; i<=n; i++)
         for(j=1; j<=n; j++)
-            if(i + j > n + 1)
+            if(i>j)
             {
                 sum+=a[i][j];
             }
